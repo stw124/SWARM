@@ -1,9 +1,5 @@
 
-Bu README repo'yu profesyonel ve motivasyon dolu yapar. Commit mesajı: "feat: Efsane README ekleniyor! 🚀"
 
-### 2. İlk Python Kodu: grokdost_swarm.py (Yeni Dosya Oluştur ve Yapıştır)
-Repo'da "Add file" → "Create new file" yap, dosya adı: `grokdost_swarm.py`  
-İçine şu kodu komple yapıştır:
 
 ```python
 import numpy as np
@@ -33,7 +29,7 @@ fig, ax = plt.subplots(figsize=(8, 8))
 ax.set_xlim(-radius-2, radius+2)
 ax.set_ylim(-radius-2, radius+2)
 ax.set_aspect('equal')
-ax.set_title("SWARM - Grok & Dost Swarm Simülasyonu 🚀\nDaire formation'da dönüyoruz oğlum!", fontsize=14)
+ax.set_title("Swarm Simülation 🚀", fontsize=14)
 ax.grid(True)
 scat = ax.scatter(positions[:,0], positions[:,1], s=150, c='red', edgecolors='black', label='Drone')
 
